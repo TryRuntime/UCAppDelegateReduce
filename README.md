@@ -1,0 +1,2 @@
+# UCAppDelegateReduce
+一个利用runtime实现appdelegate减负的小工具

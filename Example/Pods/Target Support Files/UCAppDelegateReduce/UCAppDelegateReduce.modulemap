@@ -1,0 +1,6 @@
+framework module UCAppDelegateReduce {
+  umbrella header "UCAppDelegateReduce-umbrella.h"
+
+  export *
+  module * { export * }
+}

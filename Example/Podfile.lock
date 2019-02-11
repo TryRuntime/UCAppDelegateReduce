@@ -1,0 +1,16 @@
+PODS:
+  - UCAppDelegateReduce (0.1.0)
+
+DEPENDENCIES:
+  - UCAppDelegateReduce (from `../`)
+
+EXTERNAL SOURCES:
+  UCAppDelegateReduce:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UCAppDelegateReduce: fc6ce6c36a4931d62e005b6c29f63937acfec9a1
+
+PODFILE CHECKSUM: b66d83eb753f80be5c76032305279a109912e8a1
+
+COCOAPODS: 1.5.3

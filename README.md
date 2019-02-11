@@ -1,9 +1,13 @@
 # UCAppDelegateReduce
 
-[![CI Status](https://img.shields.io/travis/Link913/UCAppDelegateReduce.svg?style=flat)](https://travis-ci.org/Link913/UCAppDelegateReduce)
 [![Version](https://img.shields.io/cocoapods/v/UCAppDelegateReduce.svg?style=flat)](https://cocoapods.org/pods/UCAppDelegateReduce)
 [![License](https://img.shields.io/cocoapods/l/UCAppDelegateReduce.svg?style=flat)](https://cocoapods.org/pods/UCAppDelegateReduce)
 [![Platform](https://img.shields.io/cocoapods/p/UCAppDelegateReduce.svg?style=flat)](https://cocoapods.org/pods/UCAppDelegateReduce)
+
+| Branch | Build States  |
+| --- | ---  |
+| Master  |[![CI Status](https://travis-ci.org/TryRuntime/UCAppDelegateReduce.svg?branch=master)](https://travis-ci.org/TryRuntime/UCRuntimeKit)|
+| Develop |[![CI Status](https://travis-ci.org/TryRuntime/UCAppDelegateReduce.svg?branch=develop)](https://travis-ci.org/TryRuntime/UCRuntimeKit) |
 
 ## Example
 

@@ -8,29 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UCAppDelegateReduce'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of UCAppDelegateReduce.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0'
+  s.summary          = '一个配合组件化减负appdelegate的小工具'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+一个配合组件化减负appdelegate的小工具
                        DESC
 
-  s.homepage         = 'https://github.com/Link913/UCAppDelegateReduce'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'git@github.com:TryRuntime/UCAppDelegateReduce.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Link913' => 'fanyang_32012@outlook.com' }
   s.source           = { :git => 'https://github.com/Link913/UCAppDelegateReduce.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'UCAppDelegateReduce/Classes/**/*'
+  s.dependency "UCRuntimeKit"
   
   # s.resource_bundles = {
   #   'UCAppDelegateReduce' => ['UCAppDelegateReduce/Assets/*.png']

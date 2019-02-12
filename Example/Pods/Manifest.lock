@@ -1,15 +1,30 @@
 PODS:
-  - UCAppDelegateReduce (0.1.0)
+  - UCAppDelegateReduce (1.0):
+    - UCRuntimeKit
+  - UCRuntimeKit (1.1.3):
+    - UCRuntimeKit/Others (= 1.1.3)
+    - UCRuntimeKit/UCMediatorObjc (= 1.1.3)
+    - UCRuntimeKit/UCMediatorSwift (= 1.1.3)
+  - UCRuntimeKit/Others (1.1.3)
+  - UCRuntimeKit/UCMediatorObjc (1.1.3):
+    - UCRuntimeKit/Others
+  - UCRuntimeKit/UCMediatorSwift (1.1.3):
+    - UCRuntimeKit/UCMediatorObjc
 
 DEPENDENCIES:
   - UCAppDelegateReduce (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UCRuntimeKit
 
 EXTERNAL SOURCES:
   UCAppDelegateReduce:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UCAppDelegateReduce: fc6ce6c36a4931d62e005b6c29f63937acfec9a1
+  UCAppDelegateReduce: 016f9b4f3be738300fa60e35f73b15ff7fba9624
+  UCRuntimeKit: 8eb01fac38bd578a06dfd0993279d41fb3bc3830
 
 PODFILE CHECKSUM: b66d83eb753f80be5c76032305279a109912e8a1
 

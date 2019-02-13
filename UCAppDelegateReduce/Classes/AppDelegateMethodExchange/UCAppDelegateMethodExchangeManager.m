@@ -9,6 +9,11 @@
 #import "UCAppDelegateConfigModel.h"
 #import <UCRuntimeKit/UCOtherMacro.h>
 #import <objc/runtime.h>
+#import "UCAppDelegateInvokeCache.h"
+
+@interface UCAppDelegateMethodExchangeManager ()
+@property(nonatomic, strong, readwrite) UCAppDelegateInvokeCache *invokeCache;
+@end
 
 @implementation UCAppDelegateMethodExchangeManager
 
@@ -35,17 +40,33 @@
 
 - (void)startExchangeMethodWithOriginalAppDelegateName:(NSString *)originalAppDelegateName
                        newModuleAppDelegateConfigArray:(NSArray<UCAppDelegateConfigModel *> *)newModuleAppDelegateConfigArray {
-    
+    [self startExchangeMethodWithOriginalAppDelegateName:originalAppDelegateName newModuleAppDelegateConfigArray:newModuleAppDelegateConfigArray exchangeError:nil];
 }
 
+- (void)startExchangeMethodWithOriginalAppDelegateName:(NSString *)originalAppDelegateName
+                       newModuleAppDelegateConfigArray:(NSArray<UCAppDelegateConfigModel *> *)newModuleAppDelegateConfigArray
+                                         exchangeError:(NSError * __autoreleasing *)exchangeError {
+    //先添加方法
+    [self p_addAllMethodOriginAppdelegateName:originalAppDelegateName error:exchangeError];
+    
+    //交换方法
+    [self p_exchangeAllMethodWithOriginalAppdelegateName:originalAppDelegateName error:exchangeError];
+    
+    //解析并缓存config
+    [self.invokeCache parsingWithInvokeConfigArray:newModuleAppDelegateConfigArray];
+}
 #pragma mark - 添加方法
 /// 向原来的delegate添加所有方法
-- (void)addAllMethodOriginAppdelegateName:(NSString *)originalAppdelegateName
+- (void)p_addAllMethodOriginAppdelegateName:(NSString *)originalAppdelegateName
                                     error:(NSError * __autoreleasing *)error {
     
     // 添加调用原来delegate的一个方法
     [self p_addMethodOriginalAppdelegateName:originalAppdelegateName
                                   methodName:kUCAppDelegateReduceInvokeOriginDelegateMethod
+                                       error:error];
+    // 添加派发各个模块的方法
+    [self p_addMethodOriginalAppdelegateName:originalAppdelegateName
+                                  methodName:kUCAppDelegateReduceSendNewDelegateMethod
                                        error:error];
 }
 
@@ -163,6 +184,13 @@ static inline NSError * UCNewDelegateUndefindMethodError() {
     return [[NSError alloc] initWithDomain:kUCAppDelegateReduceErrorDomain
                                       code:kUCNewDelegateUndefindMethodErrorCode
                                   userInfo:@{kUCAppDelegateReduceErrorInfoKey: kUCNewDelegateUndefindMethodErrorInfo}];
+}
+
+- (UCAppDelegateInvokeCache *)invokeCache {
+    if (!_invokeCache) {
+        _invokeCache = [[UCAppDelegateInvokeCache alloc] init];
+    }
+    return _invokeCache;
 }
 @end
 

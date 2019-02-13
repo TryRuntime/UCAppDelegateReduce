@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B0CB8682212BB5E0022F592 /* AppDelegateExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CB8672212BB5E0022F592 /* AppDelegateExchange.m */; };
 		3B0CB86A2212C1D60022F592 /* UCRuntimeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0CB8692212C1D60022F592 /* UCRuntimeKit.framework */; };
+		3B70115C221410B60068976C /* UCObjcModule1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B70115B221410B60068976C /* UCObjcModule1AppDelegate.m */; };
+		3B70115F221410C70068976C /* UCObjcModule2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B70115E221410C70068976C /* UCObjcModule2AppDelegate.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -46,6 +48,10 @@
 		3B0CB8662212BB5E0022F592 /* AppDelegateExchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateExchange.h; sourceTree = "<group>"; };
 		3B0CB8672212BB5E0022F592 /* AppDelegateExchange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateExchange.m; sourceTree = "<group>"; };
 		3B0CB8692212C1D60022F592 /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B70115A221410B60068976C /* UCObjcModule1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCObjcModule1AppDelegate.h; sourceTree = "<group>"; };
+		3B70115B221410B60068976C /* UCObjcModule1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCObjcModule1AppDelegate.m; sourceTree = "<group>"; };
+		3B70115D221410C70068976C /* UCObjcModule2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCObjcModule2AppDelegate.h; sourceTree = "<group>"; };
+		3B70115E221410C70068976C /* UCObjcModule2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCObjcModule2AppDelegate.m; sourceTree = "<group>"; };
 		520329AFC87D892AB5E83B35 /* Pods-UCAppDelegateReduce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCAppDelegateReduce_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCAppDelegateReduce_Tests/Pods-UCAppDelegateReduce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UCAppDelegateReduce_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCAppDelegateReduce_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,7 +75,7 @@
 		61F5490E8CB259D7BEDFB7F3 /* Pods-UCAppDelegateReduce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCAppDelegateReduce_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCAppDelegateReduce_Example/Pods-UCAppDelegateReduce_Example.release.xcconfig"; sourceTree = "<group>"; };
 		67DB8A35EAE3C05E6076018A /* Pods-UCAppDelegateReduce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCAppDelegateReduce_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCAppDelegateReduce_Tests/Pods-UCAppDelegateReduce_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79F54723C9E6A29A9721F00E /* UCAppDelegateReduce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UCAppDelegateReduce.podspec; path = ../UCAppDelegateReduce.podspec; sourceTree = "<group>"; };
+		79F54723C9E6A29A9721F00E /* UCAppDelegateReduce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UCAppDelegateReduce.podspec; path = ../UCAppDelegateReduce.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A5A014980D91C2792FFEAF /* Pods-UCAppDelegateReduce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCAppDelegateReduce_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCAppDelegateReduce_Example/Pods-UCAppDelegateReduce_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +107,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B701158221410A00068976C /* ObjcModule2 */ = {
+			isa = PBXGroup;
+			children = (
+				3B70115D221410C70068976C /* UCObjcModule2AppDelegate.h */,
+				3B70115E221410C70068976C /* UCObjcModule2AppDelegate.m */,
+			);
+			path = ObjcModule2;
+			sourceTree = "<group>";
+		};
+		3B701159221410A00068976C /* ObjcModule1 */ = {
+			isa = PBXGroup;
+			children = (
+				3B70115A221410B60068976C /* UCObjcModule1AppDelegate.h */,
+				3B70115B221410B60068976C /* UCObjcModule1AppDelegate.m */,
+			);
+			path = ObjcModule1;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +163,8 @@
 		6003F593195388D20070C39A /* Example for UCAppDelegateReduce */ = {
 			isa = PBXGroup;
 			children = (
+				3B701159221410A00068976C /* ObjcModule1 */,
+				3B701158221410A00068976C /* ObjcModule2 */,
 				6003F59C195388D20070C39A /* UCAppDelegate.h */,
 				6003F59D195388D20070C39A /* UCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -378,10 +404,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B70115C221410B60068976C /* UCObjcModule1AppDelegate.m in Sources */,
 				6003F59E195388D20070C39A /* UCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* UCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				3B0CB8682212BB5E0022F592 /* AppDelegateExchange.m in Sources */,
+				3B70115F221410C70068976C /* UCObjcModule2AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

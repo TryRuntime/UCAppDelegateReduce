@@ -66,11 +66,13 @@ static inline NSString* getSendMessageMethodName(UCAppDelegateSendMessageType se
         case performActionForShortcutItem_completionHandler: return @"application:performActionForShortcutItem:completionHandler:";
         case supportedInterfaceOrientationsForWindow: return @"application:supportedInterfaceOrientationsForWindow:";
         case applicationDidReceiveMemoryWarning:  return @"applicationDidReceiveMemoryWarning:";
+        default: return @"不识别的枚举";
     }
 }
 
 #pragma mark - add method name
 FOUNDATION_EXPORT NSString *const kUCAppDelegateReduceInvokeOriginDelegateMethod;
+FOUNDATION_EXPORT NSString *const kUCAppDelegateReduceSendNewDelegateMethod;
 
 #pragma mark - error const
 FOUNDATION_EXPORT NSString *const kUCAppDelegateReduceErrorDomain;

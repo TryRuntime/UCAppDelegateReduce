@@ -10,10 +10,12 @@
 #endif
 #endif
 
+#import "UCAppDelegateInvokeCache.h"
 #import "UCAppDelegateMethodExchangeManager.h"
 #import "UCAppDelegateRealize.h"
 #import "UCAppDelegateConfigModel.h"
 #import "UCAppDelegateReduceConstFile.h"
+#import "UCAppDelegateReduce.h"
 
 FOUNDATION_EXPORT double UCAppDelegateReduceVersionNumber;
 FOUNDATION_EXPORT const unsigned char UCAppDelegateReduceVersionString[];

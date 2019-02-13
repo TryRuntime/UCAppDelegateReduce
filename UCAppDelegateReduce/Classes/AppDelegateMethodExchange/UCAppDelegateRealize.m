@@ -7,6 +7,7 @@
 
 #import "UCAppDelegateRealize.h"
 #import <UCRuntimeKit/UCRuntimeKit.h>
+#import "UCAppDelegateReduceConstFile.h"
 
 @implementation UCAppDelegateRealize
 
@@ -182,5 +183,9 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     NSRange methodRange = NSMakeRange(spaceRange.location + 1, str.length - spaceRange.location - 2);
     NSString *methodName = [str substringWithRange:methodRange];
     return [[UCMediator sharedInstance] performAppDelegateTarget:@"UCAppDelegateRealize" actionName:methodName params:arguments];
+}
+
+- (void)uc_sendModuleAppdelegateMethodWithMethodType:(UCAppDelegateSendMessageType)methodType {
+    
 }
 @end

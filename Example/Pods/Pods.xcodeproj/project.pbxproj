@@ -7,40 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024F3FE8DC194BB9BB4A372C062A260B /* UCAppDelegateReduceConstFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 07496E588879474A9D1E1F80CD20A28F /* UCAppDelegateReduceConstFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04E2F2E3F28860F6AD63878DFB7A238B /* UCAppDelegateReduce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EA5A1788DED460543DBE686159F41 /* UCAppDelegateReduce-dummy.m */; };
 		09677D264B36DD11483152726427F577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE00B348ACA6DA2C8F166A9FAD1AFC /* Foundation.framework */; };
-		1692A574B2CDD3A96D3574B86D768DF9 /* UCAppDelegateMethodExchangeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C1BF2760D742AEB56AD08F5979EE5C /* UCAppDelegateMethodExchangeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F323656AEEE0048801DD69462CD58E0 /* UCAppDelegateMethodExchangeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F59E1EF66A1994CAA5FF67601377CAFF /* UCAppDelegateMethodExchangeManager.m */; };
+		15F9F3370FDAD560B45DD214911AAD97 /* UCAppDelegateRealize.h in Headers */ = {isa = PBXBuildFile; fileRef = D56B83C491D803CA30FF5349D7703A80 /* UCAppDelegateRealize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23112E92465C59BDE8772F4B013AB854 /* UCAppDelegateReduce.h in Headers */ = {isa = PBXBuildFile; fileRef = A66397F20A9919C9A02E95C8573BEC46 /* UCAppDelegateReduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		237012B6081AB75D2556174E3AF857AA /* UCMediatorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 734C62CA5812744F1236BA1793F38DC5 /* UCMediatorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A5FFE9AD3FFF164F1EB4D7BD9D25EFE /* Pods-UCAppDelegateReduce_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F25FFEA8117822F4215A6C097B80BD /* Pods-UCAppDelegateReduce_Tests-dummy.m */; };
 		3C423DEEB26851D576EE363A1A310DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE00B348ACA6DA2C8F166A9FAD1AFC /* Foundation.framework */; };
+		3D55F30B3C5C2631FF0BFD02F02D7AE6 /* UCAppDelegateReduceConstFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DFC9100898E98E85686FC1709FB54F /* UCAppDelegateReduceConstFile.m */; };
 		41461756789A6360DA002EA0C6A7B3B5 /* UCRuntimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EF996318351B2489E48221A94CF41B /* UCRuntimeKit-dummy.m */; };
+		464771EEF76CAD2F6058572BEB261738 /* UCAppDelegateMethodExchangeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C29C67E63C45720C5B1A677996053956 /* UCAppDelegateMethodExchangeManager.m */; };
+		48A83B1CE55C09D46768F0FCE2F2E818 /* UCAppDelegateInvokeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 654A7C20907FCD53E55EB2F9B63A2A74 /* UCAppDelegateInvokeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E9838042817BFEC6011FCEF3A6FDAD9 /* UCMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = C4970476F1FF5C358850C03680724570 /* UCMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		514207794BAB3041C6F1C123913D4968 /* UCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 060DA321CD488B4F26BB3760DCBFB5C5 /* UCMediator.m */; };
 		51644B184667C2AE84D38DEAD1F57DF3 /* UCMediatorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E1A59BCA2DB62A634BD69B03A7A70 /* UCMediatorParser.m */; };
 		536C00B81F223DF5953F5D3955CA4319 /* UCMediatorAppdelegateArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E3AF9F2B48E7A8B99E899F719DAC /* UCMediatorAppdelegateArguments.m */; };
+		567D9422F37EF7DFA330A1EE15729B3C /* UCAppDelegateReduceConstFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 413FC1B3DA3E749767E778F568F32F95 /* UCAppDelegateReduceConstFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5692CC485583C6E9F9B92C1B32CDC9A4 /* UCMediatorParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8EE8A4582317D4B2EF0FE28E4E7EC /* UCMediatorParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EBDFC4C9AA525CD23EB91A45637C728 /* UCRuntimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CDC84096075B9AA532BDB0B06A6D48 /* UCRuntimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66CABDBE166F4C5CAFCED843FC2B0265 /* UCAppDelegateRealize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3013139038C5AD8CE28252BE9196328B /* UCAppDelegateRealize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9D5E259A904D5D5A997172B2BFA734 /* UCRuntimeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4D564DF2E87CA383C04AFC0C9CE946 /* UCRuntimeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786D2FAF40E2EF294BB85D6C3A7B7321 /* UCAppDelegateConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CA283BBB78A1425F78A17CEBECBF03 /* UCAppDelegateConfigModel.m */; };
 		7AEC4BCDC77045943D9D05FA6A6EAC4B /* Pods-UCAppDelegateReduce_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB6515DA3A55D6F6705C14A2B8B9E88 /* Pods-UCAppDelegateReduce_Example-dummy.m */; };
 		7E9E368C73E6906685AED7C5B5CD2D32 /* UCMediatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = 29730354A4B37854903467844DA56E7E /* UCMediatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6B2E3D738CC7E72C87BAF5FFFE90E4 /* UCOtherMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F08157DCBA3DACFBA56F9891093FF2 /* UCOtherMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		905E5E4AA7B320CB854DDE1CC4F09C5E /* UCMediatorArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA7550BD87DE701EC4660973C317C71 /* UCMediatorArgument.m */; };
 		9236AAA482B80B863FF0C01341B991AD /* Pods-UCAppDelegateReduce_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7061287001A7BFD12BBC81B4578EDFE /* Pods-UCAppDelegateReduce_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92AA186BF9A418F934A0AF774BA7796D /* UCAppDelegateRealize.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DECEB96F02E87907679BE10461C0FA /* UCAppDelegateRealize.m */; };
+		A01A450D9BB9333C7488A5F0159B1127 /* UCAppDelegateInvokeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F3E0ADE4ECA213A455D8D9151E5C5 /* UCAppDelegateInvokeCache.m */; };
+		A0733C90ACEBAAA9FB7A32F1545479F5 /* UCAppDelegateRealize.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C02492CAEA698BDAFA504FFBF9DBFB /* UCAppDelegateRealize.m */; };
 		A22F1058EF54F97918FB128D6599F5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE00B348ACA6DA2C8F166A9FAD1AFC /* Foundation.framework */; };
-		A2C9AFF522F0C53F9810189EFF9A3AC4 /* UCAppDelegateConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8511866ED51BEF81C4A48DB4A9A1B820 /* UCAppDelegateConfigModel.m */; };
-		A2E6ADAB42B2C9465BF45F6B8470EACD /* UCAppDelegateReduce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E78BA9B99C91661A0DFFA68E9A70ED /* UCAppDelegateReduce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A44283E56FCA28622210E1F665EA3E89 /* UCMediatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FC05BF01128AA51AD9D9B0EFF4DF5 /* UCMediatorError.m */; };
 		A77E53F24D5629664FDFC21D61EEC2A5 /* Pods-UCAppDelegateReduce_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E352ABD7328756CB9ADF9CAF7B502C7 /* Pods-UCAppDelegateReduce_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8174CDA84AD4D33890004258F7B0960 /* UCAppDelegateConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF885EBA3C6310FA8A4752EA45850E39 /* UCAppDelegateConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A5BB5C7294A28992172002B9312F42 /* UCAppDelegateReduce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B4CC97F1527DE75E306F44C274C92 /* UCAppDelegateReduce-dummy.m */; };
+		E302B6E2AC8644430D5CBAF94C59125D /* UCAppDelegateReduce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7601853CC06D1DB829EDF68665EAE5DB /* UCAppDelegateReduce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E750B79E951626EBE3E92E955FCE09E9 /* UCMediatorAppdelegateArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 34099E6AD95AAEF3EC5D75C2D1CE87CE /* UCMediatorAppdelegateArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB9F0DF945FD7A50C5C20501901F04A9 /* UCAppDelegateReduceConstFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3386DE3B11E3831A4CACFBD93E4B23 /* UCAppDelegateReduceConstFile.m */; };
+		E92685178213D8A26BF08D7E2C4DAF52 /* UCAppDelegateConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C40232421802D597D722FD59F8062DCF /* UCAppDelegateConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F317B4C8232EADB4C1A0E7EFFBFEE607 /* UCRuntimeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C765716BC6B435E3F058E28EFC7AE24D /* UCRuntimeKit.framework */; };
 		F686A302C74673894C9892FC71EE22EE /* UCMediatorParameterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FF368B1C568CC4E271C0688CB4A91F /* UCMediatorParameterParser.swift */; };
 		FA7179D2536A93F1D87E5EBF7D79C020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE00B348ACA6DA2C8F166A9FAD1AFC /* Foundation.framework */; };
+		FABE58742D78B4FC1AB9819C1FA2DE3F /* UCAppDelegateMethodExchangeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FC68715BA2B24CB7ABD82A29BDE771 /* UCAppDelegateMethodExchangeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,15 +80,12 @@
 /* Begin PBXFileReference section */
 		05F08157DCBA3DACFBA56F9891093FF2 /* UCOtherMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCOtherMacro.h; path = UCRuntimeKit/Classes/Others/UCOtherMacro.h; sourceTree = "<group>"; };
 		060DA321CD488B4F26BB3760DCBFB5C5 /* UCMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediator.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediator.m; sourceTree = "<group>"; };
-		07496E588879474A9D1E1F80CD20A28F /* UCAppDelegateReduceConstFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateReduceConstFile.h; sourceTree = "<group>"; };
 		0C2E747D343477FA1044039E604D18CD /* Pods-UCAppDelegateReduce_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCAppDelegateReduce_Tests-resources.sh"; sourceTree = "<group>"; };
-		0D66B38DF920A3089B2D262D04F90CEB /* UCAppDelegateReduce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCAppDelegateReduce.modulemap; sourceTree = "<group>"; };
 		0E352ABD7328756CB9ADF9CAF7B502C7 /* Pods-UCAppDelegateReduce_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCAppDelegateReduce_Example-umbrella.h"; sourceTree = "<group>"; };
 		0EF4E3AF9F2B48E7A8B99E899F719DAC /* UCMediatorAppdelegateArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorAppdelegateArguments.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.m; sourceTree = "<group>"; };
 		0F5E1A59BCA2DB62A634BD69B03A7A70 /* UCMediatorParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorParser.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorParser.m; sourceTree = "<group>"; };
 		1728C6F5E2CD564C7747B9E9550529B1 /* UCRuntimeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-prefix.pch"; sourceTree = "<group>"; };
-		1AEE2E44EDF3C8D279AC2178A4C76B95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1B73F881933F1F9C8E72CCD8B0355BA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18330E9CFF5135B370F8397757EF3866 /* UCAppDelegateReduce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCAppDelegateReduce-prefix.pch"; sourceTree = "<group>"; };
 		1CB6515DA3A55D6F6705C14A2B8B9E88 /* Pods-UCAppDelegateReduce_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCAppDelegateReduce_Example-dummy.m"; sourceTree = "<group>"; };
 		1D6C1501DC5B2CBAB7ABF7CEE3D9DC99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DB106F61971E755317CCC3707B7DA97 /* Pods-UCAppDelegateReduce_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCAppDelegateReduce_Tests.modulemap"; sourceTree = "<group>"; };
@@ -95,49 +95,55 @@
 		26760322B189871664BE8F14970D6F6D /* Pods-UCAppDelegateReduce_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCAppDelegateReduce_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		29730354A4B37854903467844DA56E7E /* UCMediatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorError.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorError.h; sourceTree = "<group>"; };
 		2C4D564DF2E87CA383C04AFC0C9CE946 /* UCRuntimeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCRuntimeKit.h; path = UCRuntimeKit/Classes/UCRuntimeKit.h; sourceTree = "<group>"; };
-		3013139038C5AD8CE28252BE9196328B /* UCAppDelegateRealize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateRealize.h; sourceTree = "<group>"; };
-		31C1BF2760D742AEB56AD08F5979EE5C /* UCAppDelegateMethodExchangeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateMethodExchangeManager.h; sourceTree = "<group>"; };
 		32F6EDB022200C78C25CA9E73ABC5359 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34099E6AD95AAEF3EC5D75C2D1CE87CE /* UCMediatorAppdelegateArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorAppdelegateArguments.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.h; sourceTree = "<group>"; };
+		413FC1B3DA3E749767E778F568F32F95 /* UCAppDelegateReduceConstFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateReduceConstFile.h; sourceTree = "<group>"; };
 		44F25FFEA8117822F4215A6C097B80BD /* Pods-UCAppDelegateReduce_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCAppDelegateReduce_Tests-dummy.m"; sourceTree = "<group>"; };
-		452E99D105123CFB082B5C3F7997D223 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		479FDE63E13A5953946D02E5D009EFC2 /* Pods-UCAppDelegateReduce_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCAppDelegateReduce_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4CBB26D234BE725B5A4DB90C4852363C /* UCAppDelegateReduce.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCAppDelegateReduce.xcconfig; sourceTree = "<group>"; };
 		4CEE00B348ACA6DA2C8F166A9FAD1AFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4D14E5983D88FD26671E313D0E2F6E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC7D2E99D131E00B2860F1DB40B6189 /* UCAppDelegateReduce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCAppDelegateReduce.modulemap; sourceTree = "<group>"; };
 		51C1F95F3B4678B4CDF9158D8854F1CA /* Pods-UCAppDelegateReduce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCAppDelegateReduce_Example.release.xcconfig"; sourceTree = "<group>"; };
-		58E78BA9B99C91661A0DFFA68E9A70ED /* UCAppDelegateReduce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCAppDelegateReduce-umbrella.h"; sourceTree = "<group>"; };
-		5A9893A1D01E6539B4D483425BBE3472 /* Pods_UCAppDelegateReduce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCAppDelegateReduce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CA283BBB78A1425F78A17CEBECBF03 /* UCAppDelegateConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateConfigModel.m; sourceTree = "<group>"; };
+		5A9893A1D01E6539B4D483425BBE3472 /* Pods_UCAppDelegateReduce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCAppDelegateReduce_Tests.framework; path = "Pods-UCAppDelegateReduce_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BACB86796C62B004917E29D7880E0EC /* UCAppDelegateReduce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UCAppDelegateReduce.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D6B4CC97F1527DE75E306F44C274C92 /* UCAppDelegateReduce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCAppDelegateReduce-dummy.m"; sourceTree = "<group>"; };
 		62F3FBC1F2B8D60688D8FEBB1AB102D8 /* Pods-UCAppDelegateReduce_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCAppDelegateReduce_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		63CDC84096075B9AA532BDB0B06A6D48 /* UCRuntimeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-umbrella.h"; sourceTree = "<group>"; };
+		65159D52D4FB6FAD81084E65DC8DB612 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654A7C20907FCD53E55EB2F9B63A2A74 /* UCAppDelegateInvokeCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateInvokeCache.h; sourceTree = "<group>"; };
 		734C62CA5812744F1236BA1793F38DC5 /* UCMediatorArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorArgument.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorArgument.h; sourceTree = "<group>"; };
+		7601853CC06D1DB829EDF68665EAE5DB /* UCAppDelegateReduce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCAppDelegateReduce-umbrella.h"; sourceTree = "<group>"; };
 		77D33EBBF1F7DBBE1C5123253583C9DC /* UCRuntimeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCRuntimeKit.xcconfig; sourceTree = "<group>"; };
+		79C02492CAEA698BDAFA504FFBF9DBFB /* UCAppDelegateRealize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateRealize.m; sourceTree = "<group>"; };
 		7AFFE9477E66F840459CC2EC605FF18A /* Pods-UCAppDelegateReduce_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCAppDelegateReduce_Example.modulemap"; sourceTree = "<group>"; };
-		8464FE2D3C1B2EF1D7510988C6EE64D7 /* UCAppDelegateReduce-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCAppDelegateReduce-prefix.pch"; sourceTree = "<group>"; };
-		8511866ED51BEF81C4A48DB4A9A1B820 /* UCAppDelegateConfigModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateConfigModel.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93B5ACEEB07940869BA73D6A3E4102B9 /* UCAppDelegateReduce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UCAppDelegateReduce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FC68715BA2B24CB7ABD82A29BDE771 /* UCAppDelegateMethodExchangeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateMethodExchangeManager.h; sourceTree = "<group>"; };
+		88DFC9100898E98E85686FC1709FB54F /* UCAppDelegateReduceConstFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateReduceConstFile.m; sourceTree = "<group>"; };
+		8A03DAB3CFBBDA28E31A77295470D92B /* UCAppDelegateReduce.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCAppDelegateReduce.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B5ACEEB07940869BA73D6A3E4102B9 /* UCAppDelegateReduce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UCAppDelegateReduce.framework; path = UCAppDelegateReduce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2A8F1B17DC33669D7C72ACF6573797 /* Pods-UCAppDelegateReduce_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCAppDelegateReduce_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9CFCBEB0D09B46A14604ADBB66589E65 /* Pods-UCAppDelegateReduce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCAppDelegateReduce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A50E6E43DDA7378F317AFC46087EE79F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A66397F20A9919C9A02E95C8573BEC46 /* UCAppDelegateReduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCAppDelegateReduce.h; path = UCAppDelegateReduce/Classes/UCAppDelegateReduce.h; sourceTree = "<group>"; };
 		B1C8EE8A4582317D4B2EF0FE28E4E7EC /* UCMediatorParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorParser.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorParser.h; sourceTree = "<group>"; };
-		B45EA5A1788DED460543DBE686159F41 /* UCAppDelegateReduce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCAppDelegateReduce-dummy.m"; sourceTree = "<group>"; };
-		B5DECEB96F02E87907679BE10461C0FA /* UCAppDelegateRealize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateRealize.m; sourceTree = "<group>"; };
 		BD580FB1249950880C4DA8EB788D7E36 /* Pods-UCAppDelegateReduce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCAppDelegateReduce_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C13F3E0ADE4ECA213A455D8D9151E5C5 /* UCAppDelegateInvokeCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateInvokeCache.m; sourceTree = "<group>"; };
+		C29C67E63C45720C5B1A677996053956 /* UCAppDelegateMethodExchangeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateMethodExchangeManager.m; sourceTree = "<group>"; };
+		C40232421802D597D722FD59F8062DCF /* UCAppDelegateConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateConfigModel.h; sourceTree = "<group>"; };
 		C42FC05BF01128AA51AD9D9B0EFF4DF5 /* UCMediatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorError.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorError.m; sourceTree = "<group>"; };
 		C4970476F1FF5C358850C03680724570 /* UCMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediator.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediator.h; sourceTree = "<group>"; };
 		C59FA55FD02CC63DBF426BC6EFDD74CC /* Pods-UCAppDelegateReduce_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCAppDelegateReduce_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C765716BC6B435E3F058E28EFC7AE24D /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C24C2A09E751035233D636023F02F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D403608A978E41AA0678BA44D8CA7E8E /* Pods-UCAppDelegateReduce_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCAppDelegateReduce_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D535216CC43BE1A246BE78475BC53E3E /* Pods_UCAppDelegateReduce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCAppDelegateReduce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D535216CC43BE1A246BE78475BC53E3E /* Pods_UCAppDelegateReduce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCAppDelegateReduce_Example.framework; path = "Pods-UCAppDelegateReduce_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56B83C491D803CA30FF5349D7703A80 /* UCAppDelegateRealize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateRealize.h; sourceTree = "<group>"; };
 		D7061287001A7BFD12BBC81B4578EDFE /* Pods-UCAppDelegateReduce_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCAppDelegateReduce_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DBA7550BD87DE701EC4660973C317C71 /* UCMediatorArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorArgument.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorArgument.m; sourceTree = "<group>"; };
 		DFBA69251995001C6E756E69F89D7F27 /* Pods-UCAppDelegateReduce_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCAppDelegateReduce_Example-resources.sh"; sourceTree = "<group>"; };
-		E0174A649A11776B4F50F55F9890FEBE /* UCAppDelegateReduce.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UCAppDelegateReduce.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8CB7B032D0E0D110646C517176DEC79 /* Pods-UCAppDelegateReduce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCAppDelegateReduce_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC3386DE3B11E3831A4CACFBD93E4B23 /* UCAppDelegateReduceConstFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateReduceConstFile.m; sourceTree = "<group>"; };
-		EF820D7E35D91D7017DC293E772CEEAA /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF885EBA3C6310FA8A4752EA45850E39 /* UCAppDelegateConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCAppDelegateConfigModel.h; sourceTree = "<group>"; };
-		F59E1EF66A1994CAA5FF67601377CAFF /* UCAppDelegateMethodExchangeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegateMethodExchangeManager.m; sourceTree = "<group>"; };
+		EF820D7E35D91D7017DC293E772CEEAA /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UCRuntimeKit.framework; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,18 @@
 			name = UCMediatorObjc;
 			sourceTree = "<group>";
 		};
+		01B6E3FDE4D69BE517BED6D26A2A9D73 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C40232421802D597D722FD59F8062DCF /* UCAppDelegateConfigModel.h */,
+				58CA283BBB78A1425F78A17CEBECBF03 /* UCAppDelegateConfigModel.m */,
+				413FC1B3DA3E749767E778F568F32F95 /* UCAppDelegateReduceConstFile.h */,
+				88DFC9100898E98E85686FC1709FB54F /* UCAppDelegateReduceConstFile.m */,
+			);
+			name = Config;
+			path = UCAppDelegateReduce/Classes/Config;
+			sourceTree = "<group>";
+		};
 		1D7E95FC85B6071E153B28902845BB43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,16 +220,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2A42E721BB989EA647A0777761D62888 /* UCAppDelegateReduce */ = {
+		269B8430BAEF781888EC13E110F2D029 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				ADB7610AC4B671EB03C61095FC2239E9 /* AppDelegateMethodExchange */,
-				A3E56F7698591A3E6AF7A91775425201 /* Config */,
-				4C92DF512BF5EBDC738633B018D589ED /* Pod */,
-				53C32E33A7119F5E0AC33EF5789EB4A6 /* Support Files */,
+				D0C24C2A09E751035233D636023F02F8 /* LICENSE */,
+				A50E6E43DDA7378F317AFC46087EE79F /* README.md */,
+				5BACB86796C62B004917E29D7880E0EC /* UCAppDelegateReduce.podspec */,
 			);
-			name = UCAppDelegateReduce;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2E179FC79891045151F97B6F8C83E2EB /* Pods-UCAppDelegateReduce_Tests */ = {
@@ -241,25 +257,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4C92DF512BF5EBDC738633B018D589ED /* Pod */ = {
+		3383D2C1C669D3DFC20D441756249E83 /* AppDelegateMethodExchange */ = {
 			isa = PBXGroup;
 			children = (
-				1AEE2E44EDF3C8D279AC2178A4C76B95 /* LICENSE */,
-				452E99D105123CFB082B5C3F7997D223 /* README.md */,
-				E0174A649A11776B4F50F55F9890FEBE /* UCAppDelegateReduce.podspec */,
+				654A7C20907FCD53E55EB2F9B63A2A74 /* UCAppDelegateInvokeCache.h */,
+				C13F3E0ADE4ECA213A455D8D9151E5C5 /* UCAppDelegateInvokeCache.m */,
+				81FC68715BA2B24CB7ABD82A29BDE771 /* UCAppDelegateMethodExchangeManager.h */,
+				C29C67E63C45720C5B1A677996053956 /* UCAppDelegateMethodExchangeManager.m */,
+				D56B83C491D803CA30FF5349D7703A80 /* UCAppDelegateRealize.h */,
+				79C02492CAEA698BDAFA504FFBF9DBFB /* UCAppDelegateRealize.m */,
 			);
-			name = Pod;
+			name = AppDelegateMethodExchange;
+			path = UCAppDelegateReduce/Classes/AppDelegateMethodExchange;
 			sourceTree = "<group>";
 		};
-		53C32E33A7119F5E0AC33EF5789EB4A6 /* Support Files */ = {
+		6B5FDFC8FE51CFE6EFCBE22090D6FAFB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B73F881933F1F9C8E72CCD8B0355BA4 /* Info.plist */,
-				0D66B38DF920A3089B2D262D04F90CEB /* UCAppDelegateReduce.modulemap */,
-				4CBB26D234BE725B5A4DB90C4852363C /* UCAppDelegateReduce.xcconfig */,
-				B45EA5A1788DED460543DBE686159F41 /* UCAppDelegateReduce-dummy.m */,
-				8464FE2D3C1B2EF1D7510988C6EE64D7 /* UCAppDelegateReduce-prefix.pch */,
-				58E78BA9B99C91661A0DFFA68E9A70ED /* UCAppDelegateReduce-umbrella.h */,
+				65159D52D4FB6FAD81084E65DC8DB612 /* Info.plist */,
+				4DC7D2E99D131E00B2860F1DB40B6189 /* UCAppDelegateReduce.modulemap */,
+				8A03DAB3CFBBDA28E31A77295470D92B /* UCAppDelegateReduce.xcconfig */,
+				5D6B4CC97F1527DE75E306F44C274C92 /* UCAppDelegateReduce-dummy.m */,
+				18330E9CFF5135B370F8397757EF3866 /* UCAppDelegateReduce-prefix.pch */,
+				7601853CC06D1DB829EDF68665EAE5DB /* UCAppDelegateReduce-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UCAppDelegateReduce";
@@ -269,7 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C0C5290B027D13ECB6C7EAAD500C8D7C /* Development Pods */,
+				A0FC88DA8DB27AE619D3B6F4E968807F /* Development Pods */,
 				A2ACE82A564A524D90F46880E0BC1B87 /* Frameworks */,
 				1D7E95FC85B6071E153B28902845BB43 /* Pods */,
 				B555E9B277F6ED8337E4F01238301245 /* Products */,
@@ -294,6 +314,7 @@
 				00CAF52245D5D64621469A0D67C98EC5 /* UCMediatorObjc */,
 				964AF6350E71921F79A99CFA46CC8AF7 /* UCMediatorSwift */,
 			);
+			name = UCRuntimeKit;
 			path = UCRuntimeKit;
 			sourceTree = "<group>";
 		};
@@ -313,6 +334,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		A0FC88DA8DB27AE619D3B6F4E968807F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE15E345290065859FFDD3511B6C1EB0 /* UCAppDelegateReduce */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		A2ACE82A564A524D90F46880E0BC1B87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,18 +349,6 @@
 				A06C15AD2AF2424876EFCB78939F9101 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A3E56F7698591A3E6AF7A91775425201 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				EF885EBA3C6310FA8A4752EA45850E39 /* UCAppDelegateConfigModel.h */,
-				8511866ED51BEF81C4A48DB4A9A1B820 /* UCAppDelegateConfigModel.m */,
-				07496E588879474A9D1E1F80CD20A28F /* UCAppDelegateReduceConstFile.h */,
-				EC3386DE3B11E3831A4CACFBD93E4B23 /* UCAppDelegateReduceConstFile.m */,
-			);
-			name = Config;
-			path = UCAppDelegateReduce/Classes/Config;
 			sourceTree = "<group>";
 		};
 		A9F0E92299BBF72AD280F6D10EEE2CBF /* Pods-UCAppDelegateReduce_Example */ = {
@@ -352,16 +369,17 @@
 			path = "Target Support Files/Pods-UCAppDelegateReduce_Example";
 			sourceTree = "<group>";
 		};
-		ADB7610AC4B671EB03C61095FC2239E9 /* AppDelegateMethodExchange */ = {
+		AE15E345290065859FFDD3511B6C1EB0 /* UCAppDelegateReduce */ = {
 			isa = PBXGroup;
 			children = (
-				31C1BF2760D742AEB56AD08F5979EE5C /* UCAppDelegateMethodExchangeManager.h */,
-				F59E1EF66A1994CAA5FF67601377CAFF /* UCAppDelegateMethodExchangeManager.m */,
-				3013139038C5AD8CE28252BE9196328B /* UCAppDelegateRealize.h */,
-				B5DECEB96F02E87907679BE10461C0FA /* UCAppDelegateRealize.m */,
+				A66397F20A9919C9A02E95C8573BEC46 /* UCAppDelegateReduce.h */,
+				3383D2C1C669D3DFC20D441756249E83 /* AppDelegateMethodExchange */,
+				01B6E3FDE4D69BE517BED6D26A2A9D73 /* Config */,
+				269B8430BAEF781888EC13E110F2D029 /* Pod */,
+				6B5FDFC8FE51CFE6EFCBE22090D6FAFB /* Support Files */,
 			);
-			name = AppDelegateMethodExchange;
-			path = UCAppDelegateReduce/Classes/AppDelegateMethodExchange;
+			name = UCAppDelegateReduce;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B555E9B277F6ED8337E4F01238301245 /* Products */ = {
@@ -389,29 +407,9 @@
 			path = "../Target Support Files/UCRuntimeKit";
 			sourceTree = "<group>";
 		};
-		C0C5290B027D13ECB6C7EAAD500C8D7C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A42E721BB989EA647A0777761D62888 /* UCAppDelegateReduce */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13876D814079BA90AE35204F646249CA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8174CDA84AD4D33890004258F7B0960 /* UCAppDelegateConfigModel.h in Headers */,
-				1692A574B2CDD3A96D3574B86D768DF9 /* UCAppDelegateMethodExchangeManager.h in Headers */,
-				66CABDBE166F4C5CAFCED843FC2B0265 /* UCAppDelegateRealize.h in Headers */,
-				A2E6ADAB42B2C9465BF45F6B8470EACD /* UCAppDelegateReduce-umbrella.h in Headers */,
-				024F3FE8DC194BB9BB4A372C062A260B /* UCAppDelegateReduceConstFile.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		492F450F7950793DD283C0878AD8A5BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,6 +438,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9236AAA482B80B863FF0C01341B991AD /* Pods-UCAppDelegateReduce_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9076F4BDD99AC4912815C26059E77DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92685178213D8A26BF08D7E2C4DAF52 /* UCAppDelegateConfigModel.h in Headers */,
+				48A83B1CE55C09D46768F0FCE2F2E818 /* UCAppDelegateInvokeCache.h in Headers */,
+				FABE58742D78B4FC1AB9819C1FA2DE3F /* UCAppDelegateMethodExchangeManager.h in Headers */,
+				15F9F3370FDAD560B45DD214911AAD97 /* UCAppDelegateRealize.h in Headers */,
+				E302B6E2AC8644430D5CBAF94C59125D /* UCAppDelegateReduce-umbrella.h in Headers */,
+				23112E92465C59BDE8772F4B013AB854 /* UCAppDelegateReduce.h in Headers */,
+				567D9422F37EF7DFA330A1EE15729B3C /* UCAppDelegateReduceConstFile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,8 +519,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A513BF64A5343A9D96984B9815A73803 /* Build configuration list for PBXNativeTarget "UCAppDelegateReduce" */;
 			buildPhases = (
-				13876D814079BA90AE35204F646249CA /* Headers */,
-				B1CD96D38FA6ED58C7AF8BB1BD4E4DBE /* Sources */,
+				9076F4BDD99AC4912815C26059E77DE2 /* Headers */,
+				196CF854E96FFAFF85EC1B0CA8244AE6 /* Sources */,
 				C551766414646452C019F61C5D66E35E /* Frameworks */,
 				9E8984260E0E801F8C058E488845EE1E /* Resources */,
 			);
@@ -591,6 +603,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		196CF854E96FFAFF85EC1B0CA8244AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786D2FAF40E2EF294BB85D6C3A7B7321 /* UCAppDelegateConfigModel.m in Sources */,
+				A01A450D9BB9333C7488A5F0159B1127 /* UCAppDelegateInvokeCache.m in Sources */,
+				464771EEF76CAD2F6058572BEB261738 /* UCAppDelegateMethodExchangeManager.m in Sources */,
+				A0733C90ACEBAAA9FB7A32F1545479F5 /* UCAppDelegateRealize.m in Sources */,
+				D2A5BB5C7294A28992172002B9312F42 /* UCAppDelegateReduce-dummy.m in Sources */,
+				3D55F30B3C5C2631FF0BFD02F02D7AE6 /* UCAppDelegateReduceConstFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FCCD31423AF8D4C421D5D013A5017C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -610,18 +635,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A5FFE9AD3FFF164F1EB4D7BD9D25EFE /* Pods-UCAppDelegateReduce_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1CD96D38FA6ED58C7AF8BB1BD4E4DBE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2C9AFF522F0C53F9810189EFF9A3AC4 /* UCAppDelegateConfigModel.m in Sources */,
-				1F323656AEEE0048801DD69462CD58E0 /* UCAppDelegateMethodExchangeManager.m in Sources */,
-				92AA186BF9A418F934A0AF774BA7796D /* UCAppDelegateRealize.m in Sources */,
-				04E2F2E3F28860F6AD63878DFB7A238B /* UCAppDelegateReduce-dummy.m in Sources */,
-				EB9F0DF945FD7A50C5C20501901F04A9 /* UCAppDelegateReduceConstFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +670,7 @@
 /* Begin XCBuildConfiguration section */
 		01C8AF405D6DB97C59298A7763402AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CBB26D234BE725B5A4DB90C4852363C /* UCAppDelegateReduce.xcconfig */;
+			baseConfigurationReference = 8A03DAB3CFBBDA28E31A77295470D92B /* UCAppDelegateReduce.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -671,7 +684,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UCAppDelegateReduce/UCAppDelegateReduce-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UCAppDelegateReduce/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UCAppDelegateReduce/UCAppDelegateReduce.modulemap";
 				PRODUCT_MODULE_NAME = UCAppDelegateReduce;
@@ -712,7 +725,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -789,7 +803,7 @@
 		};
 		95491CCBCF35AF852121F929D95E8590 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CBB26D234BE725B5A4DB90C4852363C /* UCAppDelegateReduce.xcconfig */;
+			baseConfigurationReference = 8A03DAB3CFBBDA28E31A77295470D92B /* UCAppDelegateReduce.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -803,7 +817,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UCAppDelegateReduce/UCAppDelegateReduce-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UCAppDelegateReduce/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UCAppDelegateReduce/UCAppDelegateReduce.modulemap";
 				PRODUCT_MODULE_NAME = UCAppDelegateReduce;
@@ -901,7 +915,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

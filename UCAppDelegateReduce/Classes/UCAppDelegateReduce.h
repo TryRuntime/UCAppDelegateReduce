@@ -8,7 +8,9 @@
 #ifndef UCAppDelegateReduce_h
 #define UCAppDelegateReduce_h
 
+#import "UCAppDelegateMethodExchangeManager.h"
 #import "UCAppDelegateConfigModel.h"
 #import "UCAppDelegateReduceConstFile.h"
+#import "UCAppDelegateInvokeCache.h"
 
 #endif /* UCAppDelegateReduce_h */

@@ -9,7 +9,7 @@
 
 #pragma mark - add method name
 NSString *const kUCAppDelegateReduceInvokeOriginDelegateMethod = @"uc_invokeOriginalMethod:arguments:";
-NSString *const kUCAppDelegateReduceSendNewDelegateMethod = @"uc_sendModuleAppdelegateMethodWithMethodType:";
+NSString *const kUCAppDelegateReduceSendNewDelegateMethod = @"uc_sendModuleAppdelegateMethodWithMethodType:arguments:";
 
 #pragma mark - error const
 NSString *const kUCAppDelegateReduceErrorDomain = @"com.UCAppDelegateReduce.UCAppDelegateMethodExchangeManager";

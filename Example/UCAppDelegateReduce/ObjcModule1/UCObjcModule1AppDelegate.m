@@ -9,5 +9,10 @@
 #import "UCObjcModule1AppDelegate.h"
 
 @implementation UCObjcModule1AppDelegate
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
+    NSLog(@"🍎🍎🍎🍎🍎🍎ObjcModule1的didFinishLaunchingWithOptions方法");
+    return YES;
+}
 @end

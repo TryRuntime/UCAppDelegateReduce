@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UCAppDelegateRealize : NSObject<UIApplicationDelegate>
+@interface UCAppDelegateRealize : NSObject
 
 @end
 

@@ -18,7 +18,6 @@
 {
     UCMediatorAppdelegateArguments *arguments = [[[UCMediatorAppdelegateArguments new] addElement:application] addElement:launchOptions];
     
-    NSLog(@"调用了新的");
     //先调用旧的方法
     id result = [self uc_invokeOriginalMethod:__func__ arguments:arguments];
     [self uc_sendModuleAppdelegateMethodWithMethodType:didFinishLaunchingWithOptions arguments:arguments];

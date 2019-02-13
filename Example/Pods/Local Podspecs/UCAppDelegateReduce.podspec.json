@@ -1,9 +1,9 @@
 {
   "name": "UCAppDelegateReduce",
-  "version": "0.1.0",
-  "summary": "A short description of UCAppDelegateReduce.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Link913/UCAppDelegateReduce",
+  "version": "1.0",
+  "summary": "一个配合组件化减负appdelegate的小工具",
+  "description": "一个配合组件化减负appdelegate的小工具",
+  "homepage": "git@github.com:TryRuntime/UCAppDelegateReduce.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Link913/UCAppDelegateReduce.git",
-    "tag": "0.1.0"
+    "tag": "1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "UCAppDelegateReduce/Classes/**/*"
+  "source_files": "UCAppDelegateReduce/Classes/**/*",
+  "dependencies": {
+    "UCRuntimeKit": [
+
+    ]
+  }
 }

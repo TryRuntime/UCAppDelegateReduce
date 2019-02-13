@@ -29,16 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startExchangeMethodWithOriginalAppDelegateName:(NSString *)originalAppDelegateName
                        newModuleAppDelegateConfigArray:(NSArray<UCAppDelegateConfigModel *> *)newModuleAppDelegateConfigArray
                                          exchangeError:(NSError * __autoreleasing *)exchangeError;
-//
-//- (void)startExchangeMethodWithOriginalAppDelegateName:(NSString *)originalAppDelegateName
-//                       newModuleAppDelegateConfigArray:(NSArray<UCAppDelegateConfigModel *> *)newModuleAppDelegateConfigArray
-//                                    exchangeErrorBlock:(void (^)(NSError *error))exchangeErrorBlock;
 
-//- (void)p_exchangeAllMethodWithOriginalAppdelegateName:(NSString *)originalAppdelegateName
-//                                                 error:(NSError * __autoreleasing *)error;
-//- (void)p_addMethodOriginalAppdelegateName:(NSString *)originalAppdelegateName
-//                                methodName:(NSString *)methodName
-//                                     error:(NSError * __autoreleasing *)error;
 @end
 
 NS_ASSUME_NONNULL_END

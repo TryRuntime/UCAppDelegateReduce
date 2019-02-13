@@ -15,7 +15,9 @@
     
     UCAppDelegateMethodExchangeManager *manager = [UCAppDelegateMethodExchangeManager share];
     
+    // 这里Objc调用Swift需要加上类似命名空间的前缀,否则找不到这个Swift class
     NSString *swiftModule1Name = [UCMediatorParameterParser getObjcClassName:@"SwiftModule1AppDelegate"];
+    // 支持位移枚举
     UCAppDelegateConfigModel *model1 = [[UCAppDelegateConfigModel alloc] initWithModuleName:swiftModule1Name sendMessageType:didFinishLaunchingWithOptions];
     
     NSString *swiftModule2Name = [UCMediatorParameterParser getObjcClassName:@"SwiftModule2AppDelegate"];
@@ -25,9 +27,4 @@
     [manager startExchangeMethodWithOriginalAppDelegateName:originalDelegateName newModuleAppDelegateConfigArray:@[model1, model2]];
 }
 
-//public class func getObjcClassName(_ swiftClassNameStr: String) -> String {
-//    guard let prefix = Bundle.main.infoDictionary?["CFBundleExecutable"] as? String else {return ""}
-//    let className = prefix + "." + swiftClassNameStr
-//    return className
-//}
 @end

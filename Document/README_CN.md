@@ -47,7 +47,7 @@ pod 'UCAppDelegateReduce'
 ### Swift
 
 - 1.新建一个Objc类,例如我这里取名叫`AppDelegateExchange`
-- 2.要转发的Module中的appdelegate方法前要加`@objc`,负责不支持动态调用
+- 2.要转发的Module中的appdelegate方法前要加`@objc`,否则不支持动态调用
 - 3.在load类方法里进行下面的配置,就可以了
 
 		+ (void)load {

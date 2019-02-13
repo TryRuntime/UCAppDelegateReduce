@@ -9,6 +9,8 @@
 | Master  |[![CI Status](https://travis-ci.org/TryRuntime/UCAppDelegateReduce.svg?branch=master)](https://travis-ci.org/TryRuntime/UCRuntimeKit)|
 | Develop |[![CI Status](https://travis-ci.org/TryRuntime/UCAppDelegateReduce.svg?branch=develop)](https://travis-ci.org/TryRuntime/UCRuntimeKit) |
 
+[中文文档](https://github.com/TryRuntime/UCAppDelegateReduce/blob/master/Document/README_CN.md)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UCAppDelegateReduce'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = '一个配合组件化减负appdelegate的小工具'
   s.description      = <<-DESC
 一个配合组件化减负appdelegate的小工具
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/TryRuntime/UCAppDelegateReduce.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'UCAppDelegateReduce/Classes/**/*'
-  s.dependency "UCRuntimeKit"
+  s.dependency "UCRuntimeKit/UCMediatorObjc"
   
   # s.resource_bundles = {
   #   'UCAppDelegateReduce' => ['UCAppDelegateReduce/Assets/*.png']

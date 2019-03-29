@@ -58,7 +58,7 @@
 #pragma mark - 添加方法
 /// 向原来的delegate添加所有方法
 - (void)p_addAllMethodOriginAppdelegateName:(NSString *)originalAppdelegateName
-                                    error:(NSError * __autoreleasing *)error {
+                                      error:(NSError * __autoreleasing *)error {
     
     // 添加调用原来delegate的一个方法
     [self p_addMethodOriginalAppdelegateName:originalAppdelegateName

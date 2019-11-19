@@ -6,7 +6,8 @@
 //
 
 #import "UCAppDelegateRealize.h"
-#import <UCRuntimeKit/UCRuntimeKit.h>
+#import <UCRuntimeKit/UCMediator.h>
+#import <UCRuntimeKit/UCMediatorAppdelegateArguments.h>
 #import "UCAppDelegateReduceConstFile.h"
 #import "UCAppDelegateMethodExchangeManager.h"
 #import "UCAppDelegateInvokeCache.h"

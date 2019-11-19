@@ -66,6 +66,18 @@ pod 'UCAppDelegateReduce'
         [manager startExchangeMethodWithOriginalAppDelegateName:originalDelegateName newModuleAppDelegateConfigArray:@[model1, model2]];
     	}
 
+## Release Note
+
+### 1.0 
+- [x] 支持`Swift`以及`Objc` `AppDelegate`代码派发
+- [x] 支持`Cocoapod`集成
+- [x] 支持`CI`
+- [x] 支持单元测试
+
+### 1.1
+- [ ]支持调用优先级配置, 支持优先级调用服务治理
+- [ ]代码使用`Swiftgyb`进行解析生成
+- [ ]适配`iOS 13`的`SceneDelegate`
 
 ## Author
 
